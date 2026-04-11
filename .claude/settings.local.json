@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp:*)",
+      "Bash(python3:*)",
+      "Bash(ls:*)",
+      "Read(//home/koo/DB/VoxCeleb2/**)",
+      "Bash(xargs:*)",
+      "Bash(du -sh /home/koo/code/~before/*)",
+      "Bash(grep -n \"compute_eer\\\\|compute_min_dcf\" /home/koo/code/code/SSLbackend/3.*/utils/__init__.py)",
+      "Bash(wc -l /home/koo/code/code/SSLbackend/3.*/models/*.py)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
