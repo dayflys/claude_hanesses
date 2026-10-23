@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sudo chmod:*)",
+      "Bash(xargs -I {} ls -la {})",
+      "Bash(echo \"---EXIT:$?\")",
+      "Bash(mkdir -p /home/koo/code/SSLbackend2025/.claude/agents)",
+      "Bash(mkdir -p /home/koo/code/SSLbackend2025/.claude/skills/ssl-orchestrator/references)",
+      "Bash(mkdir -p /home/koo/code/SSLbackend2025/.claude/skills/experiment-builder/references)",
+      "Bash(echo \"EXIT:$?\")"
+    ]
+  }
+}
